@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "ignorePatterns": [
+    "next-env.d.ts",
+    "_template-backup/"
+  ]
+}
